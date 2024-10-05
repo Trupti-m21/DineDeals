@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Dinedeal</title>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <h2>Sign In</h2>
+    <div id="g_id_onload"
+         data-client_id="987187913297-27uh67kefs842f19lrocbk5dtlibb38k.apps.googleusercontent.com"
+         data-callback="handleCredentialResponse">
+    </div>
+    <div class="g_id_signin" data-type="standard"></div>
+
+    <script>
+        function handleCredentialResponse(response) {
+            // Handle the response here (e.g., send to your server)
+            console.log("Encoded JWT ID token: " + response.credential);
+            // You can then send this token to your server for verification and login
+        }
+    </script>
+    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+</body>
+</html>
