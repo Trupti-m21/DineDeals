@@ -1,0 +1,1 @@
+SELECT * FROM dine_deal_db.restaurants;

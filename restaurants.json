@@ -1,0 +1,91 @@
+{
+  "restaurants": [
+    {
+      "name": "Pasta Paradise",
+      "address": "123 Main St, Springfield",
+      "location": "40.712776, -74.005974",
+      "contact_info": "555-0123",
+      "opening_hours": "Mon-Fri 11:00-22:00",
+      "image_url": "https://example.com/pasta-paradise.jpg",
+      "rating": 4.5
+    },
+    {
+      "name": "Burger Barn",
+      "address": "456 Oak Ave, Springfield",
+      "location": "40.712780, -74.006000",
+      "contact_info": "555-0456",
+      "opening_hours": "Mon-Sun 10:00-23:00",
+      "image_url": "https://example.com/burger-barn.jpg",
+      "rating": 4.2
+    }
+  ],
+  "menu_items": [
+    {
+      "restaurant_id": 1,
+      "item_name": "Spaghetti Bolognese",
+      "price": 12.99,
+      "image_url": "https://example.com/spaghetti-bolognese.jpg",
+      "description": "Traditional Italian pasta with rich meat sauce."
+    },
+    {
+      "restaurant_id": 1,
+      "item_name": "Garlic Bread",
+      "price": 4.50,
+      "image_url": "https://example.com/garlic-bread.jpg",
+      "description": "Crispy garlic bread topped with melted cheese."
+    },
+    {
+      "restaurant_id": 2,
+      "item_name": "Classic Cheeseburger",
+      "price": 8.99,
+      "image_url": "https://example.com/classic-cheeseburger.jpg",
+      "description": "Juicy beef patty with cheese, lettuce, tomato, and pickles."
+    },
+    {
+      "restaurant_id": 2,
+      "item_name": "French Fries",
+      "price": 3.50,
+      "image_url": "https://example.com/french-fries.jpg",
+      "description": "Crispy golden french fries."
+    }
+  ],
+  "users": [
+    {
+      "oauth_provider": "google",
+      "oauth_uid": "1234567890",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "profile_image_url": "https://example.com/john-doe.jpg"
+    },
+    {
+      "oauth_provider": "facebook",
+      "oauth_uid": "0987654321",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "profile_image_url": "https://example.com/jane-smith.jpg"
+    }
+  ],
+  "ratings": [
+    {
+      "user_id": 1,
+      "restaurant_id": 1,
+      "menu_item_id": 1,
+      "rating": 4.5,
+      "review": "Absolutely loved the pasta!"
+    },
+    {
+      "user_id": 2,
+      "restaurant_id": 2,
+      "menu_item_id": 3,
+      "rating": 4.0,
+      "review": "The burger was juicy and flavorful."
+    },
+    {
+      "user_id": 1,
+      "restaurant_id": 2,
+      "menu_item_id": 4,
+      "rating": 3.5,
+      "review": "Fries were good, but a bit too salty."
+    }
+  ]
+}
